@@ -1,4 +1,8 @@
 # iosbuildversions
-A library which can used to look up more informing, using the iOS build number.
+A library which can used to look up more information, using the iOS build number.
 
-Currently a WIP.
+
+```
+import iosbuildversions
+
+print iosbuildversions.lookup_by_build("5A240d")

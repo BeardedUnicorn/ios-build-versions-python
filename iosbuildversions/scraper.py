@@ -3,10 +3,12 @@ import requests
 
 
 html = requests.get("https://en.wikipedia.org/wiki/IOS_SDK").content
-
-
 soup = BeautifulSoup(html, 'html.parser')
 version_tables = soup.select(".wikitable")
+
+# TODO: CLI to update the builds.yml automatically.
+# TODO: Add handling for merged cells.
+
 
 for table in version_tables[2:]:
     build_history = table.find_all("tr")[2:]
@@ -38,5 +40,3 @@ for table in version_tables[2:]:
     final: {final}
             
     """.format(version=version, build=build_number, beta=beta, final=final)
-
-pass

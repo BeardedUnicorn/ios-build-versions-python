@@ -2,11 +2,13 @@
 
 from distutils.core import setup
 
-setup(name='iosbuildversions',
-      version='0.0.1',
-      description='iOS Version lookup based on build number',
-      author='Mike Herold',
-      author_email='archangel.herold@gmail.com',
-      url='https://www.python.org/sigs/distutils-sig/',
-      packages=['distutils', 'distutils.command'],
-     )
+setup(
+    name="ios-build-versions",
+    version="0.0.1",
+    description="iOS Version lookup based on build number",
+    author="Mike Herold",
+    author_email="archangel.herold@gmail.com",
+    url="https://github.com/SecretObsession/ios-build-versions-python",
+    packages=["iosbuildversions"],
+    license="MIT",
+)
