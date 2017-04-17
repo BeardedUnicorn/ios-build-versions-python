@@ -1,3 +1,5 @@
+from __future__ import absolute_import
+
 from iosbuildversions.builds import build_list as _builds
 
 

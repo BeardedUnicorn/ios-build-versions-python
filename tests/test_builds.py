@@ -1,6 +1,6 @@
 import unittest
 import pytest
-from iosbuildversions import lookup_by_build, _builds
+from iosbuildversions import lookup_by_build, get_builds
 
 
 class TestBuilds(unittest.TestCase):
@@ -22,6 +22,7 @@ class TestBuilds(unittest.TestCase):
         assert build["name"] == "iOS 6.0 Final"
 
     def test_builds_formed_correctly(self):
+        _builds = get_builds()
         for build in _builds:
             assert isinstance(_builds[build]["name"], str)
             assert isinstance(_builds[build]["final"], bool)
