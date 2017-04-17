@@ -4,7 +4,7 @@ from distutils.core import setup
 
 setup(
     name="ios-build-versions",
-    version="0.0.1",
+    version="0.0.2",
     description="iOS Version lookup based on build number",
     author="Mike Herold",
     author_email="archangel.herold@gmail.com",
