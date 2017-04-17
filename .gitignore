@@ -187,3 +187,4 @@ ENV/
 .ropeproject
 .idea/
 /.pypirc
+/MANIFEST
