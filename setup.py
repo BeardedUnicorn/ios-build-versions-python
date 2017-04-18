@@ -11,4 +11,14 @@ setup(
     url="https://github.com/SecretObsession/ios-build-versions-python",
     packages=["iosbuildversions"],
     license="MIT",
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Developers', 
+        'License :: OSI Approved :: MIT License',
+        'Natural Language :: English',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Topic :: Software Development :: Libraries',
+        'Topic :: Software Development :: Libraries :: Python Modules',
+    ],
 )
