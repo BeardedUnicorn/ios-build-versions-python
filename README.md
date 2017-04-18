@@ -3,8 +3,13 @@
 # iosbuildversions
 A library which can used to look up more information, using the iOS build number.
 
+Build numbers last updated: 2017/04/17
 
 ```
-import iosbuildversions
+>>> import iosbuildversions
+>>> print iosbuildversions.lookup_by_build("5A240d")
+{'beta': True, 'build': '5A240d', 'name': 'iPhone OS 2.0 Beta 3', 'final': False}
 
-print iosbuildversions.lookup_by_build("5A240d")
+>>> print iosbuildversions.lookup_by_build("foobar")
+False
+```
