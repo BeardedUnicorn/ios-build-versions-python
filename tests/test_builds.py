@@ -5,6 +5,9 @@ from iosbuildversions import lookup_by_build, get_builds
 
 class TestBuilds(unittest.TestCase):
     def test_lookup_by_build(self):
+        """
+        This test covers the positive/negative path build lookups.
+        """
         assert lookup_by_build("") is False
 
         build = lookup_by_build("11D5127c")
@@ -22,6 +25,9 @@ class TestBuilds(unittest.TestCase):
         assert build["name"] == "iOS 6.0 Final"
 
     def test_builds_formed_correctly(self):
+        """
+        This test ensures the list of builds is sane and type safe.
+        """
         _builds = get_builds()
         for build in _builds:
             assert isinstance(_builds[build]["name"], str)
