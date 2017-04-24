@@ -4,3 +4,5 @@ pytest
 wheel
 twine
 pylint
+Sphinx
+sphinx_rtd_theme
