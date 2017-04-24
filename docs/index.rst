@@ -12,6 +12,9 @@ Welcome to ios-build-versions-python's documentation!
 
    readme
 
+.. automodule:: iosbuildversions
+   :members:
+
 
 
 Indices and tables
