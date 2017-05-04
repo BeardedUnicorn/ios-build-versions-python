@@ -215,6 +215,13 @@ build_list = {'11D5115d': {'build': '11D5115d', 'beta': True, 'final': False, 'n
               '12F70': {'build': '12F70', 'beta': False, 'final': True, 'name': 'iOS 8.3 Final'},
               '12D445d': {'build': '12D445d', 'beta': True, 'final': False, 'name': 'iOS 8.2 beta 2'},
               '14E5230e': {'build': '14E5230e', 'beta': True, 'final': False, 'name': 'iOS 10.3 beta 1'},
+              '14B150': {'build': '14B150', 'beta': False, 'final': False, 'name': 'iOS 10.1.1'},
+              '10B500': {'build': '10B500', 'beta': False, 'final': False, 'name': 'iOS 6.1.6'},
+              '11D257': {'build': '11D257', 'beta': False, 'final': False, 'name': 'iOS 7.1.2'},
+              '13A344': {'build': '13A344', 'beta': False, 'final': False, 'name': 'iOS 9.0'},
+              '11D257': {'build': '11D257', 'beta': False, 'final': False, 'name': 'iOS 7.0.4'},
+              '9B206': {'build': '9B206', 'beta': False, 'final': False, 'name': 'iOS 5.1.1'},
+              '11D201': {'build': '11D201', 'beta': False, 'final': False, 'name': 'iOS 7.1.1'},
               '14A5322e': {'build': '14A5322e', 'beta': True, 'final': False,
                            'name': 'iOS 10.0 beta 4 (public beta 3)'},
               '12H4125a': {'build': '12H4125a', 'beta': True, 'final': False, 'name': 'iOS 8.4 beta 4'}}
