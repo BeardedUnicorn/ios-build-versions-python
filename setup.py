@@ -7,7 +7,7 @@ setup(
     version="0.2.3",
     description="iOS Version lookup based on build number",
     author="Mike Herold",
-    author_email="archangel.herold@gmail.com",
+    author_email="me@secretobsession.me",
     url="https://github.com/SecretObsession/ios-build-versions-python",
     packages=["iosbuildversions"],
     license="MIT",
