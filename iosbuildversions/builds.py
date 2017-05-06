@@ -219,7 +219,6 @@ build_list = {'11D5115d': {'build': '11D5115d', 'beta': True, 'final': False, 'n
               '10B500': {'build': '10B500', 'beta': False, 'final': False, 'name': 'iOS 6.1.6'},
               '11D257': {'build': '11D257', 'beta': False, 'final': False, 'name': 'iOS 7.1.2'},
               '13A344': {'build': '13A344', 'beta': False, 'final': False, 'name': 'iOS 9.0'},
-              '11D257': {'build': '11D257', 'beta': False, 'final': False, 'name': 'iOS 7.0.4'},
               '9B206': {'build': '9B206', 'beta': False, 'final': False, 'name': 'iOS 5.1.1'},
               '11D201': {'build': '11D201', 'beta': False, 'final': False, 'name': 'iOS 7.1.1'},
               '11B554a': {'build': '11B554a', 'beta': False, 'final': False, 'name': 'iOS 7.0.4'},
