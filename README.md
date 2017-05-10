@@ -3,7 +3,7 @@
 # iosbuildversions
 A library which can used to look up more information, using the iOS build number.
 
-Build numbers last updated: 2017/04/17
+Build numbers last updated: 2017/05/10
 
 ```
 >>> import iosbuildversions
