@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name="iosbuildversions",
-    version="0.3.1",
+    version="0.4.0",
     description="iOS Version lookup based on build number",
     author="Mike Herold",
     author_email="me@secretobsession.me",
